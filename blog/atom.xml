@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Chinenye-Anyasor.github.io/portfolio/blog</id>
+    <title>Chinenye Anyasor Blog</title>
+    <updated>2026-11-10T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Chinenye-Anyasor.github.io/portfolio/blog"/>
+    <subtitle>Chinenye Anyasor Blog</subtitle>
+    <icon>https://Chinenye-Anyasor.github.io/portfolio/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Creatives in Nigeria]]></title>
+        <id>https://Chinenye-Anyasor.github.io/portfolio/blog/Creatives-in-nigeria</id>
+        <link href="https://Chinenye-Anyasor.github.io/portfolio/blog/Creatives-in-nigeria"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I have been thinking about something lately.]]></summary>
+        <content type="html"><![CDATA[<p>I have been thinking about something lately.</p>
+<p>When we say “creatives” in Nigeria, we immediately think of the entertainment and fashion industry. That’s it. It’s like we have boxed creativity into just a few visible careers: makeup artists, skit makers, stylists, videographers, directors, musicians. People in the film and fashion space, basically.</p>
+<p>But I recently watched a documentary on Netflix called Abstract: The Art of Design, and it completely shifted my perspective. There are entire creative worlds I never even considered, never even heard of until now. Stage designers. Footwear designers. Illustrators. Architects. Automobile designers. Technical documentators.</p>
+<p>People who do not just make things but solve problems with beauty, precision, and intentional design. It blew my mind in a way I still cannot explain.</p>
+<p>And the sad part is, many of these creative fields actually exist here in Nigeria. But they are:</p>
+<ul>
+<li class="">Mostly not understood as creative work,</li>
+<li class="">Underfunded,</li>
+<li class="">Not documented or celebrated publicly,</li>
+<li class="">Or shoved aside in favour of survival-driven trades.</li>
+</ul>
+<p>Take architecture, for example. We have architects, but they rarely approach the work they produce as their life’s work or legacy; the mindset is usually, “let’s just build a house,” not “let’s design something sustainable or unforgettable.”</p>
+<p>Same with footwear: it’s “let’s make shoes and sell,” not “let’s create something that solves a pain point, like helping an athlete perform better.” Even stage design: there is barely any talk about it as a career, yet it’s such a brilliant form of art expression.</p>
+<p>I do not know if it’s a Nigerian issue, a third-world issue, or both, but I genuinely believe our environment limits how far creativity is allowed to go and our career options. Not because the talent is not there, but because there’s little room, support, or even language for it to grow.</p>
+<p>When survival is the main goal, it’s hard to make space for creativity that’s innovative, bold, or experimental.
+If you have not seen Abstract Design on Netflix, you really should. It will make you rethink what it even means to be creative and maybe even inspire you to approach your own creativity with fresh eyes.</p>]]></content>
+        <author>
+            <name>Chinenye Anyasor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Online Payments Work]]></title>
+        <id>https://Chinenye-Anyasor.github.io/portfolio/blog/How-online-payment-work</id>
+        <link href="https://Chinenye-Anyasor.github.io/portfolio/blog/How-online-payment-work"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction">Introduction<a href="https://chinenye-anyasor.github.io/portfolio/blog/How-online-payment-work#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" translate="no">​</a></h2>
+<p>Nigeria has come a long way with payments. From manual bank payments, where we queued for hours, to early mobile/internet banking, to the rise of online payments that fuelled the explosion of online shopping.</p>
+<p>You can buy anything online these days, from foodstuff to gadgets, without leaving your home, yet many people don't know how online payments work and often wonder how they work. Well, you are about to find out.</p>
+<p><strong>To fully understand how online payments work, you need to understand payment service providers, payment gateways, and webhooks.</strong></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="payment-service-providers-psp">Payment service providers (PSP):<a href="https://chinenye-anyasor.github.io/portfolio/blog/How-online-payment-work#payment-service-providers-psp" class="hash-link" aria-label="Direct link to Payment service providers (PSP):" title="Direct link to Payment service providers (PSP):" translate="no">​</a></h2>
+<p>They are companies that own and provide the technology (payment gateway and payment processor) businesses use to collect payments from customers online. They make it possible for you to shop and pay online.<br>
+<!-- -->Some of them include:</p>
+<ul>
+<li class="">Paystack,</li>
+<li class="">Flutterwave,</li>
+<li class="">PayU,</li>
+<li class="">Seerbit and others.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="payment-gateway">Payment Gateway<a href="https://chinenye-anyasor.github.io/portfolio/blog/How-online-payment-work#payment-gateway" class="hash-link" aria-label="Direct link to Payment Gateway" title="Direct link to Payment Gateway" translate="no">​</a></h2>
+<p>A payment gateway is the technology that lets a business accept online payments. It securely collects and encrypts a customer’s payment details at checkout, whether by card, bank transfer, or another method, and passes them to the payment processor, which completes the transaction with the customer’s bank.</p>
+<p>The exact steps through which this happens are a bit complicated and different for each online payment option, but let's look at how a card payment works.</p>
+<p>Sarah’s clothing vendor is running a website sale. To shop, she opens the website, selects a few items, chooses card payment, enters her card details, and completes the payment.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="to-walk-through-the-process-by-which-the-payment-gateway-ensures-sarahs-payment-gets-to-her-vendor-you-need-to-understand-the-following">To walk through the process by which the payment gateway ensures Sarah’s payment gets to her vendor, you need to understand the following:<a href="https://chinenye-anyasor.github.io/portfolio/blog/How-online-payment-work#to-walk-through-the-process-by-which-the-payment-gateway-ensures-sarahs-payment-gets-to-her-vendor-you-need-to-understand-the-following" class="hash-link" aria-label="Direct link to To walk through the process by which the payment gateway ensures Sarah’s payment gets to her vendor, you need to understand the following:" title="Direct link to To walk through the process by which the payment gateway ensures Sarah’s payment gets to her vendor, you need to understand the following:" translate="no">​</a></h4>
+<ul>
+<li class="">
+<p><strong>Encryption:</strong> this process secures Sarah’s card details so only the necessary parties can access them.</p>
+</li>
+<li class="">
+<p><strong>Issuing bank:</strong> this is Sarah’s bank; she has an account with them. They issued the debit and credit card whose details she entered during checkout.</p>
+</li>
+<li class="">
+<p><strong>Payment Processor:</strong> the part of the payment service provider that receives encrypted card details from the payment gateway, sends them to the issuing bank for authorization, and returns an approval or decline.</p>
+</li>
+<li class="">
+<p><strong>Authorization:</strong> the process by which Sarah’s bank checks whether she has enough funds in her account for the items she wants to buy and whether her account has any restrictions.</p>
+</li>
+<li class="">
+<p><strong>Acquiring bank:</strong> this is the bank that receives and holds payment made through a debit or credit card on behalf of the payment service provider till they send it to Sarah’s vendor’s account.</p>
+</li>
+<li class="">
+<p><strong>Settlement:</strong> this is when Sarah’s bank moves the required amount from her account to the payment service provider’s bank, called the acquiring bank.</p>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="now-that-we-are-familiar-with-these-concepts-lets-walk-through-the-simplified-version-of-how-a-payment-gateway-ensures-that-sarahs-vendor-receives-her-payment">Now that we are familiar with these concepts, let’s walk through the simplified version of how a payment gateway ensures that Sarah’s vendor receives her payment.<a href="https://chinenye-anyasor.github.io/portfolio/blog/How-online-payment-work#now-that-we-are-familiar-with-these-concepts-lets-walk-through-the-simplified-version-of-how-a-payment-gateway-ensures-that-sarahs-vendor-receives-her-payment" class="hash-link" aria-label="Direct link to Now that we are familiar with these concepts, let’s walk through the simplified version of how a payment gateway ensures that Sarah’s vendor receives her payment." title="Direct link to Now that we are familiar with these concepts, let’s walk through the simplified version of how a payment gateway ensures that Sarah’s vendor receives her payment." translate="no">​</a></h4>
+<ol>
+<li class="">
+<p>The gateway receives Sarah’s card details and encrypts them.</p>
+</li>
+<li class="">
+<p>The gateway sends the encrypted data to the provider’s payment processor.</p>
+</li>
+<li class="">
+<p>The payment processor sends an authorization request to the issuing bank (Sarah’s bank).</p>
+</li>
+<li class="">
+<p>The issuing bank checks Sarah’s account to see whether it has enough funds to cover the items she wants to buy. It also checks that her account isn't frozen or restricted due to fraud.</p>
+</li>
+<li class="">
+<p>The issuing bank approves or declines the payment based on the results of these checks.</p>
+</li>
+<li class="">
+<p>The payment processor passes the result back to the gateway, which shows Sarah a message on her screen: “Payment successful” or “Payment failed.”</p>
+</li>
+<li class="">
+<p>At the same time, the payment service provider sends a webhook to the vendor’s server, so the vendor knows the payment went through and can process Sarah’s order.</p>
+</li>
+<li class="">
+<p>Later, usually within a day or two, the issuing bank (Sarah’s bank) sends the required amount to the payment service provider’s acquiring bank. This transfer is called settlement.</p>
+</li>
+<li class="">
+<p>The payment service provider sends the money to Sarah’s vendor’s bank account.</p>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="webhook">Webhook<a href="https://chinenye-anyasor.github.io/portfolio/blog/How-online-payment-work#webhook" class="hash-link" aria-label="Direct link to Webhook" title="Direct link to Webhook" translate="no">​</a></h2>
+<p>In step 7, we mentioned a webhook. Let’s look at it from the vendor’s perspective. How does Sarah’s vendor find out that her payment was successful? That’s where a webhook comes in. A webhook is an automated message from a payment service provider to the vendor’s server.</p>
+<p>It is sent when something happens on the provider’s platform that affects the vendor, such as a payment succeeding or failing, a settlement being made, or a refund being issued, among others.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://chinenye-anyasor.github.io/portfolio/blog/How-online-payment-work#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>Now you understand the basics of how online payments work, from the role of payment service providers and payment gateways to how webhooks keep businesses informed about transactions.</p>]]></content>
+        <author>
+            <name>Chinenye Anyasor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maybe you should dance today]]></title>
+        <id>https://Chinenye-Anyasor.github.io/portfolio/blog/Maybe-you-should-dance-today</id>
+        <link href="https://Chinenye-Anyasor.github.io/portfolio/blog/Maybe-you-should-dance-today"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When you watch people dancing, what are your thoughts?]]></summary>
+        <content type="html"><![CDATA[<p>When you watch people dancing, what are your thoughts?</p>
+<p>I will tell you what mine usually are.</p>
+<p>I am thinking this is someone who has decided that joy is more important than looking composed.<br>
+<!-- -->I am thinking this is someone who has decided not to carry the weight of everyone's opinion, if only for a few minutes.<br>
+<!-- -->I am thinking this is someone who has permitted themselves to be whimsical. To be childlike.</p>
+<p>I find it even more fascinating when they are people I know have serious jobs. People who spend Monday to Friday making difficult decisions, leading teams, paying salaries, meeting deadlines. Then the music comes on, and suddenly they are just, well... dancing.</p>
+<p>There is something beautiful about that.</p>
+<p>When I dance, I am not thinking about bills that need to be paid or any of the responsibilities that come with my adult life. I am listening to the beat. The lyrics. I am remembering where I first heard that song. I am remembering who I was when I first loved it. And somehow, without thinking too much about it, I trust my body to move however it wants to.</p>
+<p>I think dancing in front of people is brave. It is brave because you are choosing joy over self-consciousness. You are saying, "I would rather enjoy this moment than spend it wondering how I look."</p>
+<p>And I think that takes courage. Not everyone has that courage, and that is okay too.</p>
+<p>I also think the best kind of dancing is dancing with your people. Family. Friends. Or strangers who, for one song, become your people because everyone has decided to stop taking themselves so seriously.</p>
+<p>I cannot believe I have written this much about dancing.
+But maybe this is not really about dancing.</p>
+<p>Maybe it is about giving yourself permission to be free, even if it is only for one song.</p>
+<p>So dance today.<br>
+<!-- -->Not because you are good at it.<br>
+<!-- -->Just because you can.</p>]]></content>
+        <author>
+            <name>Chinenye Anyasor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are we stubborn, or do we have a voice?]]></title>
+        <id>https://Chinenye-Anyasor.github.io/portfolio/blog/Voice</id>
+        <link href="https://Chinenye-Anyasor.github.io/portfolio/blog/Voice"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you are anything like me, then at some point in your childhood, and maybe even now as an adult, you have probably been called stubborn.]]></summary>
+        <content type="html"><![CDATA[<p>If you are anything like me, then at some point in your childhood, and maybe even now as an adult, you have probably been called stubborn.</p>
+<p>Truth be told, before it became a voice, I actually was stubborn. I would refuse to do what I had been told for no reason at all. At least, that's how I choose to see it.</p>
+<p>But somewhere along the way, something changed. I do not think I am stubborn anymore. I think I just have a voice. The difference is that every decision I make, I can explain. Whether that explanation makes sense to you or not is not something that concerns me. I have thought about it, I have wrestled with it, and I have chosen it.</p>
+<p>People are not used to that.</p>
+<p>If I go with my gut even when nobody else understands it, I am called stubborn.
+If I listen to everyone's opinion and still arrive at a different conclusion, I am called stubborn.<br>
+<!-- -->If I ask for advice and do not follow it, I am called stubborn.</p>
+<p>For me, advice has never meant handing over my decision-making to someone else. It has always meant gaining another perspective.</p>
+<p>That's it.</p>
+<p>I listen. I think about it. I keep what is useful. I discard what is not. Then I make my choice. But I have realized that not everyone sees advice that way. Some people assume that the moment you ask for their opinion, you have also agreed to follow it. So when you do not, they conclude that you are stubborn.</p>
+<p>Or maybe you have simply learned to think for yourself. If there's one thing I hope more people develop, it is a voice. When you are confused, quiet yourself long enough to hear what you actually want. Then seek perspectives from people you trust. Listen carefully. Think deeply. And then decide.</p>
+<p>Do not outsource your decision-making to other people.
+Sometimes we do it without even realizing it. We look for permission instead of perspective. We keep asking person after person until someone tells us what we wanted to hear all along. Learn to catch yourself.</p>
+<p>So how do you develop a voice?</p>
+<p>Spend time alone with your thoughts. Ask yourself questions, even when you do not immediately have the answers. Sit with the discomfort of not knowing. Learn to enjoy your own company.</p>
+<p>Then read.</p>
+<p>Books expose you to lives you will never live and experiences you will never have. Sometimes they put words to thoughts you have carried around for years but never knew how to express. They do not tell you what to think; instead, they teach you how to think.</p>
+<p>Over time, they sharpen your voice. They strengthen your values. And your values become the reference point for the decisions you make.</p>
+<p>So I will ask you again.</p>
+<p>Are you stubborn? Or do you simply have a voice?</p>]]></content>
+        <author>
+            <name>Chinenye Anyasor</name>
+        </author>
+    </entry>
+</feed>

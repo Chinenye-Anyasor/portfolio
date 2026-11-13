@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([["2555"],{3002(t){t.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"About Me","slug":"/category/about-me","permalink":"/portfolio/docs/category/about-me","sidebar":"tutorialSidebar","navigation":{"next":{"title":"Introduction","permalink":"/portfolio/docs/tutorial-extras/Intro"}}}}')}}]);
